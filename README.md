@@ -147,21 +147,21 @@ Content-Length: 4810
 
 ## Proof of Error (Injection Test):
 
-![SQL Injection Error Triggered](https://github.com/venu-maxx/Portswigger-Lab-SQLI-3/blob/004c19a86b2859bbd9cf5cb1d6da945ba1a3d56c/SQL%20Injection%20Error%20Triggered.png)
+![SQL Injection Error Triggered](https://github.com/abhiram507/Portswigger-SQLI-Lab-3/blob/0d832ab131461e0b9976da0bd3bc563b905ccadf/SQL%20Injection%20Error%20Triggered.png)
 
 Figure 1: Database error (ORA-01756) after injecting single quote ('), confirming lack of input sanitization and Oracle database.
 
 
 ## Proof of Successful Exploitation:
 
-![Proof of Successful Querying](https://github.com/venu-maxx/Portswigger-Lab-SQLI-3/blob/6934c35ca74548497a8be9605cd28f073036ce93/Proof%20of%20Successful%20Querying.png)
+![Proof of Successful Querying]()
 
 Figure 2: Database version string displayed in the product listing after the payload ' UNION SELECT BANNER, NULL FROM v$version--, confirming successful query.
 
 
 ## Lab Solved:
 
-![Lab Solved Congratulations](https://github.com/venu-maxx/Portswigger-Lab-SQLI-3/blob/0d972614ea23e4de9e0090023960ddbbe0ab6297/Lab%20Solved%20Congratulations.png)
+![Lab Solved Congratulations]()
 
 Figure 3: PortSwigger Academy confirmation of lab completion.
 
